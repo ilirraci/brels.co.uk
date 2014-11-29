@@ -5,12 +5,17 @@ baseurl: /bright-electrical-specialists-ltd/
 # Site settings
 title: Bright Electrical Specialists Ltd
 email: ilirraci@yahoo.co.uk
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+phone: +12 34567890
+
+description: "Write an awesome description for your new site here. You
+can edit this line in _config.yml. It will appear in your document
+head meta (for Google search results) and in your feed.xml site
+description."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 22aaff
-  secondary: 0088ff
+  primary: 0088ff
+  secondary: 66eeff
   secondary-dark: 666
 #  primary: fed136
 #  secondary: fec503  
