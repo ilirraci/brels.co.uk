@@ -866,6 +866,7 @@ body {
 
 
 .contact {
+    font-size:20px;
     color: #{{ site.color.primary }};
     background-color:#000;
     text-align:center;
@@ -874,6 +875,7 @@ body {
 }
 .contact .email {
     margin-top: 8px;
+    padding: 7px;
 }
 .contact .email a:hover {
     text-decoration:none;
@@ -881,6 +883,7 @@ body {
 }
 .contact .phone {
     margin-bottom: 8px;
+    padding: 7px;
 }
 .contact .social {
     margin-top: 4px;
