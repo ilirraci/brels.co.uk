@@ -865,6 +865,11 @@ body {
 }
 
 
+#niceic-logo {
+    width: 200px;
+    float: left;
+}
+
 .contact {
     font-size:20px;
     color: #{{ site.color.primary }};
