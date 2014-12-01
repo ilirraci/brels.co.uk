@@ -1,10 +1,13 @@
-url: http://freesoft-al.github.io
-baseurl: /bright-electrical-specialists-ltd/
+url: http://brels.co.uk
+#url: http://freesoft-al.github.io
+#baseurl: /bright-electrical-specialists-ltd/
 
 # Site settings
 title: Bright Electrical Specialists Ltd
-email: ilirraci@yahoo.co.uk
-phone: +12 34567890
+#email: ilirraci@yahoo.co.uk
+#phone: +12 34567890
+email: info@brels.co.uk
+phone:
 description: "Write an awesome description for your new site here. You
 can edit this line in _config.yml. It will appear in your document
 head meta (for Google search results) and in your feed.xml site
