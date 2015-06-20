@@ -8,6 +8,7 @@ body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.color.secondary-dark }};
+    font-size: 18px;
 }
 
 .text-muted {
@@ -19,12 +20,12 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.75;
 }
 
 p.large {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 a,
@@ -286,7 +287,11 @@ header .intro-text .intro-lead-in {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
+    text-shadow: 0px 0px 10px #FFFF00;
     line-height: 22px;
+    color: #FF0000;
+    background-color: rgba(255, 255, 100, 0.4);
+    padding: 20px;
 }
 
 header .intro-text .intro-heading {
@@ -329,7 +334,9 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 32px;
+    color: #4444CC;
+    text-shadow: 0px 0px 5px #4444CC;
 }
 
 section h3.section-subheading {
@@ -868,6 +875,7 @@ body {
 #niceic-logo {
     width: 200px;
     float: left;
+    margin-right: 20px;
 }
 
 .contact {
@@ -890,39 +898,15 @@ body {
     margin-bottom: 8px;
     padding: 7px;
 }
-.contact .social {
-    margin-top: 4px;
-    margin-bottom:4px;
-}
-.contact .social a {
-    -webkit-border-radius:2px;
-    -moz-border-radius:2px;
-    -o-border-radius:2px;
-    border-radius:2px;
-    display:block;
-    background-color:rgba(255,255,255,0.25);
+
+.contact .label {
+    color: #cccccc;
     font-size:20px;
-    text-align:center;
-    color:#fff;
-    padding:7px;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
 }
-.contact .social a:hover{
-    background-color:rgba(255,255,255,0.85);
-    text-decoration:none;
-}
-.fa {
-    font-size: 24px;
-    margin-right: 5px;
-}
-.contact a.facebook:hover, .fa-facebook{
-    color:#3a5795;
-}
-.contact a.google:hover, .fa-google-plus{
-    color:#dd4b39;
-}
-.contact a.linkedin:hover, .fa-linkedin{
-    color:#0e76a8;
-}
-.contact a.twitter:hover, .fa-twitter{
-    color:#00acee;
+
+#services ul {
+    list-style-type: image;
+    list-style-image: url(img/tick.png);
 }

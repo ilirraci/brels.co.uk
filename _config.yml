@@ -1,23 +1,28 @@
+
 url: http://brels.co.uk
-#url: http://freesoft-al.github.io
-#baseurl: /bright-electrical-specialists-ltd/
 
 # Site settings
-title: Bright Electrical Specialists Ltd
-#email: ilirraci@yahoo.co.uk
-#phone: +12 34567890
+title: 'Bright Electrical Specialists Ltd'
 email: info@brels.co.uk
-phone:
-description: "Write an awesome description for your new site here. You
-can edit this line in _config.yml. It will appear in your document
-head meta (for Google search results) and in your feed.xml site
-description."
+phone: '07775711145'
+address1: '4 Cedar Road, Enfield'
+address2: 'EN2 0TH'
+disqus: 'brightelectricalspecialists'
+
+description: 'Bright Electrical Specialists Ltd, based in Enfield,
+    North London, carries out all types of electrical work within M25
+    area, from a new plug socket to a complete or partial rewiring of
+    your property professionally and efficiently. We are able to deal
+    with any problem which may arise and undertake electrical test
+    inspections, diagnostics and fault finding on electrical
+    systems. All our work is carried out according to the British
+    Standard BS 7671 (IEE) to meet electrical wiring regulations.'
 
 # Color settings
 color:
-  primary: 0088ff
-  secondary: 66eeff
-  secondary-dark: 888888
+  primary: 'F7DB07'
+  secondary: 'FFEE22'
+  secondary-dark: '000000'
 
 # Build settings
 markdown: kramdown
