@@ -6,6 +6,16 @@
     <meta name="description" content="{{ site.description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
+    <!-- Meta Tags -->
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="{{ site.url }}/img/about/niceic.png">
+    <meta property="og:image:type" content="image/png">
+
+    <!-- Share Buttons -->
+    <link rel="stylesheet" href="css/rrssb.css" />
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
